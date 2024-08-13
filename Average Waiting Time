@@ -3,6 +3,7 @@ public:
     double averageWaitingTime(vector<vector<int>>& customers) {
         int nextIdleTime = 0;
         long long netWaitTime = 0;
+//long long netWaitTime = 0;
 
         for (int i = 0; i < customers.size(); i++) {
             // The next idle time for the chef is given by the time of delivery
